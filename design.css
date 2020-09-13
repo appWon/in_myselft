@@ -1,0 +1,324 @@
+* {
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}            
+
+.fx {
+    display : flex;
+    justify-content: center;  
+    /* align-items: center; */
+
+
+}
+.fx_v {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.dis_n {
+    display: none;
+}
+
+
+.text_1 {
+    background-color : #e3f2fd;
+    width: 400px; height : 600px; 
+    position : relative; 
+    /* top : -70px; */
+    box-shadow: -10px 10px 30px rgba(0,0,0,0.4);
+}
+
+.text_2{
+    background-color:#e0f2f1;
+    width: 400px; 
+    height:600px; 
+    position : relative; 
+    top : 100px; 
+    margin-left : 50px; 
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+}
+
+.my_img{
+    background-image: url('KakaoTalk_20200907_143407159.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 80%;
+
+    width : 200px;
+    height : 200px;
+}
+
+.h_50 {
+    height : 50%;
+}
+
+.h_45 {
+    height : 45%;
+}
+
+.h_10 {
+    height : 10%;
+}
+
+.txt_c {
+    text-align : center;
+}
+
+.ma_t_40 {
+    margin-top : 40px;
+}
+
+.ma_t_100 {
+    margin-top : 100px;
+}
+
+.ma_t_150 {
+    margin-top : 150px;
+}
+
+.ma_b_100 {
+    margin-bottom : 100px;
+}
+
+
+.test_img {
+    background-image: url('https://i.pinimg.com/originals/05/1f/f3/051ff3fb781ff83c9b0f8a32f9922fa6.png');
+    background-size: 100% 100%;
+    background-position: center;
+    
+    width : 300px;
+    height :  400px;
+
+}
+
+.img_1 {
+    background-image: url('11.jpg');
+    margin-top: 8px;
+    width : 100%;
+    height : 100%;
+    vertical-align: top;
+}
+
+.img_2 {
+    background-image: url('22.jpg');
+    margin-top: 8px;
+    width : 100%;
+    height : 100%;
+    vertical-align: top;
+    
+}
+
+.img_3 {
+    background-image: url('33.jpg');
+    margin-top: 8px;
+    width : 100%;
+    height : 100%;
+    vertical-align: top;
+}
+
+.img_4 {
+    background-image: url('44.jpg');
+    margin-top: 8px;
+    width : 100%;
+    height : 100%;
+    vertical-align: top;
+}
+
+
+
+.nav {
+    background-color : #0c6efc;
+    display: flex;
+    justify-content: center;
+    position : sticky;
+    top : 0px;
+    z-index: 4;
+    color: white;    
+}
+
+.nav_menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav_menu li {
+    padding : 10px 20px;
+    margin : 10px 0px;
+    
+}
+
+.nav_menu a {
+    color : white;
+}
+
+.n_l{
+    margin-left :20px;
+    margin-right : 20px;
+}
+
+.fnt_1 {
+    margin : 0px 25px;
+}
+
+.icon_1 {
+    background-image: url('https://w7.pngwing.com/pngs/12/369/png-transparent-black-and-white-cat-illustration-github-computer-icons-icon-design-github-cat-like-mammal-carnivoran-logo.png');
+    display : inline-block;
+    background-size: 30px 30px;
+    width : 30px;
+    height : 30px;
+}
+
+.icon_2 {
+    background-image: url('https://image.flaticon.com/icons/svg/1384/1384037.svg');
+    display : inline-block;
+    background-size: 25px 25px;
+    width : 25px;
+    height : 25px;
+}
+
+.icon_3 {
+    background-image: url('https://simpleicon.com/wp-content/uploads/blog.png');
+    display : inline-block;
+    background-size: 26px 26px;
+    width : 26;
+    height : 26;
+}
+
+.icon_4 {
+    background-image: url('https://e7.pngegg.com/pngimages/567/358/png-clipart-white-and-black-phone-logo-whatsapp-computer-icons-mobile-phones-logo-black-and-white-text-silhouette-thumbnail.png');
+    display : inline-block;
+    background-size: 26px 26px;
+    width : 26;
+    height : 26;
+    background-color: white;
+}
+
+
+.icon_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    margin-top : 50px;
+}
+
+.nav_menu li:hover{
+    background-color: thistle;
+    border-radius: 5px;;
+}
+.tgl{
+    display: none;
+    background-image: url('https://cdn.icon-icons.com/icons2/1659/PNG/512/3844438-hamburger-menu-more-navigation_110319.png');
+    transition : all 0.2s;
+    position: absolute;
+    background-size: 30px 30px;
+    width : 30px;
+    height: 30px;
+    top : 10px;
+    right : 10px;
+}
+
+.cnt_row{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4%;
+}
+
+.cnt_colum {
+	max-width: 33%;
+	padding: 0 4px;
+}
+
+.cnt_colum img {
+    border-radius: 11px;
+	margin-top: 8px;
+	width: 100%;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px){
+
+    .tgl {
+        display: inline;
+    }
+    .dis_n {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .fx{
+        flex-direction: column;
+    }
+
+
+    .fx {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .text_1 {
+        width : 93%;
+        margin : 0px 0px;
+    }
+
+    .text_2 {
+        width: 93%;
+        top : 100px; 
+        margin : 0px 0px;
+    }
+
+    .nav{
+        padding : 10px 10px;
+        flex-direction: column;
+    }
+
+
+    .nav_menu {
+        display: none;  
+        width : 100%;
+        flex-direction: column;
+        align-items: center;
+        list-style-type: none;
+    }
+    
+    .nav_menu li {
+        width : 100%;
+        text-align : center;
+        padding : 20px 0px;
+    }
+
+    .nav_menu.active {
+        display: flex;
+        /* transition : height 10s; */
+        /* -webkit-transition: all 2s ease 0s; */
+        transition: all 2s ease 0s;
+    }
+
+    .tgl.active {
+        background-image: url('https://cdn.icon-icons.com/icons2/2518/PNG/512/x_icon_150997.png');
+        transition : all 0.2s;
+    }
+
+    .cnt_colum {
+        /* flex: 50%; */
+        max-width: 100%;
+    }
+
+}
+
